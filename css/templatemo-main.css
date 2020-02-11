@@ -144,19 +144,20 @@ a:hover { color: #FF0; }
 
 
 .baner-content {
-  padding-top: 30vh;
+  padding-top: 50vh;
   text-align: center;
   background-image: url(../img/lydiaanddavidbg_2.jpg);
 }
 
 .baner-content h1 {
-  font-family: 'Playfair Display', serif;
   margin-top: 0px;
+  font-family: 'Playfair Display', serif;
   font-size: 128px;
   color: #DCCA62;
   /*font-weight: 900;*/
   text-transform: uppercase;
-  margin-bottom: 0px;
+  margin-bottom: 40px;
+  line-height: .6;
 }
 
 .baner-content em {
