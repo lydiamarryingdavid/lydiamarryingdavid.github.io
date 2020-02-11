@@ -150,6 +150,7 @@ a:hover { color: #FF0; }
 }
 
 .baner-content h1 {
+  font-family: 'Playfair Display', serif;
   margin-top: 0px;
   font-size: 128px;
   color: #DCCA62;
