@@ -4,6 +4,7 @@ Vanilla Template
 
 https://templatemo.com/tm-526-vanilla
 
+
 */
 
 p {
@@ -21,9 +22,36 @@ body {
   font-size: 14px;
 }
 
-a { color: #3CC; }
+a { 
+  display:block;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  color: #dcca62;
+  font-size: 58px;
+  font-weight: 700;
+  padding:10px 30px;
+  background-color: #fff;
+  transition-duration: 0.25s;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
 
-a:hover { color: #FF0; }
+a:hover { 
+  color: #d44457;
+  transition-duration: 0.25s;
+}
+
+h2 {
+  display: inline-block; 
+  margin-top: 20px; 
+  font-weight: 300; 
+  font-size: 28px; 
+  color: #fff; 
+  background-color: rgba(11, 39, 75, .5); 
+  padding: 10px;
+}
 
 /*----------
   NAV
@@ -307,7 +335,7 @@ h4, .h4 {
   background-attachment: fixed;
   min-height: 50vh;
   background-size: cover;
-  background-position: 0px 20vh;
+  background-position: 0px 32vh;
 }
 
 section {
@@ -336,23 +364,20 @@ section {
   text-align:center;
   text-decoration:none;
   text-transform:uppercase;
-  color:#fff;
+  color: #dcca62;
   font-size: 58px;
   font-weight: 700;
   padding:10px 30px;
-  background-color: #d44457;
+  background-color: #fff;
   transition-duration: 0.25s;
 }
 
 .tabs a:hover {
-  color: #dcca62;
-  font-size: 42px;
-  transition-duration: 0.25s;
-  background: #fff;
+  color: #d44457;
 }
 
 .tabs .active {
-  border:4px solid #ff7d27;
+  /*border:4px solid #ff7d27;*/
 }
 
 .tabgroup div  {
@@ -441,7 +466,7 @@ section {
 
 footer {
   text-align: center;
-  padding: 70px 0px;
+  padding: 20px 0px;
   background-color: rgba(11, 39, 75, 1);
 
 }
