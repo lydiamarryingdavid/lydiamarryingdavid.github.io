@@ -41,6 +41,7 @@ a {
 a:hover { 
   color: #d44457;
   transition-duration: 0.25s;
+  text-decoration: none;
 }
 
 h2 {
